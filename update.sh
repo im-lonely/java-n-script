@@ -4,6 +4,8 @@ git commit -m "Updated by script"
 
 git push
 
+echo "Repository updated"
+
 echo "Publish? [y/n]"
 
 read publish
@@ -11,9 +13,9 @@ read publish
 if [ $publish == "y" ] 
 then
 
-    # npm version patch
+    npm version patch
 
-    # npm publish
+    npm publish
     
     echo "Published"
 
