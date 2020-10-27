@@ -4,7 +4,9 @@ git commit -m "Updated by script"
 
 git push
 
-publish=read "Publish? [y/n]"
+echo "Publish? [y/n]"
+
+read publish
 
 if [ $publish == "y" ] then
 
