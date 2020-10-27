@@ -8,7 +8,8 @@ echo "Publish? [y/n]"
 
 read publish
 
-if [ $publish == "y" ] then
+if [ $publish == "y" ] 
+then
 
     # npm version patch
 
