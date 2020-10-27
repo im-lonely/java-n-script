@@ -4,7 +4,9 @@ git commit -m "Updated by script"
 
 git push
 
-if [ read "Publish? [y/n]" == "y" ] then
+$publish = read "Publish? [y/n]"
+
+if [ $publish == "y" ] then
 
     # npm version patch
 
