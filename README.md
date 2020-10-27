@@ -1,1 +1,1 @@
-# cursed
+# java-n-script

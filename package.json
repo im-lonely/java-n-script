@@ -1,7 +1,7 @@
 {
-  "name": "cursed",
+  "name": "java-n-script",
   "version": "1.0.0",
-  "description": "A cursed library that ruins JavaScript as we know it",
+  "description": "Java in JavaScript.",
   "main": "index.js",
   "bin": "index.js",
   "directories": {
@@ -11,16 +11,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "cursed"
+    "javascript"
   ],
   "author": "im-lonely <cursors.dev@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/im-lonely/cursed.git"
+    "url": "git+https://github.com/im-lonely/java-n-script.git"
   },
   "bugs": {
-    "url": "https://github.com/im-lonely/cursed/issues"
+    "url": "https://github.com/im-lonely/java-n-script/issues"
   },
-  "homepage": "https://github.com/im-lonely/cursed#readme"
+  "homepage": "https://github.com/im-lonely/java-n-script#readme"
 }
