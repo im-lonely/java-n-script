@@ -1,3 +1,5 @@
-const java = require("./index.js");
+const {
+  lang: { System },
+} = require("./index.js");
 
-console.log(java);
+System.out.println("hello world");
